@@ -1,0 +1,634 @@
+[
+    {
+        "title": "排行榜",
+        "url": "",
+        "style": {
+            "layout_flexGrow": 0,
+            "layout_flexBasisPercent": 1
+        }
+    },
+    {
+        "title": "总排行榜",
+        "url": "modules/article/toplist.php?sort=goodnum&page={{page}}",
+        "style": {
+            "layout_flexGrow": 0.25,
+            "layout_flexBasisPercent": -1
+        }
+    },
+    {
+        "title": "月排行榜",
+        "url": "modules/article/toplist.php?sort=monthvisit&page={{page}}",
+        "style": {
+            "layout_flexGrow": 0.25,
+            "layout_flexBasisPercent": -1
+        }
+    },
+    {
+        "title": "周排行榜",
+        "url": "modules/article/toplist.php?sort=weekvisit&page={{page}}",
+        "style": {
+            "layout_flexGrow": 0.25,
+            "layout_flexBasisPercent": -1
+        }
+    },
+    {
+        "title": "日排行榜",
+        "url": "modules/article/toplist.php?sort=dayvisit&page={{page}}",
+        "style": {
+            "layout_flexGrow": 0.25,
+            "layout_flexBasisPercent": -1
+        }
+    },
+    {
+        "title": "最新入库",
+        "url": "modules/article/toplist.php?sort=postdate&page={{page}}",
+        "style": {
+            "layout_flexGrow": 0.25,
+            "layout_flexBasisPercent": -1
+        }
+    },
+    {
+        "title": "总收藏榜",
+        "url": "modules/article/toplist.php?sort=goodnum&page={{page}}",
+        "style": {
+            "layout_flexGrow": 0.25,
+            "layout_flexBasisPercent": -1
+        }
+    },
+    {
+        "title": "总推荐榜",
+        "url": "modules/article/toplist.php?sort=allvote&page={{page}}",
+        "style": {
+            "layout_flexGrow": 0.25,
+            "layout_flexBasisPercent": -1
+        }
+    },
+    {
+        "title": "月推荐榜",
+        "url": "modules/article/toplist.php?sort=monthvote&page={{page}}",
+        "style": {
+            "layout_flexGrow": 0.25,
+            "layout_flexBasisPercent": -1
+        }
+    },
+    {
+        "title": "周推荐榜",
+        "url": "modules/article/toplist.php?sort=weekvote&page={{page}}",
+        "style": {
+            "layout_flexGrow": 0.25,
+            "layout_flexBasisPercent": -1
+        }
+    },
+    {
+        "title": "日推荐榜",
+        "url": "modules/article/toplist.php?sort=dayvote&page={{page}}",
+        "style": {
+            "layout_flexGrow": 0.25,
+            "layout_flexBasisPercent": -1
+        }
+    },
+    {
+        "title": "最近更新",
+        "url": "modules/article/toplist.php?sort=lastupdate&page={{page}}",
+        "style": {
+            "layout_flexGrow": 0.25,
+            "layout_flexBasisPercent": -1
+        }
+    },
+    {
+        "title": "字数排行",
+        "url": "modules/article/toplist.php?sort=size&page={{page}}",
+        "style": {
+            "layout_flexGrow": 0.25,
+            "layout_flexBasisPercent": -1
+        }
+    },
+    {
+        "title": "已动画化",
+        "url": "modules/article/toplist.php?sort=anime&page={{page}}",
+        "style": {
+            "layout_flexGrow": 0.25,
+            "layout_flexBasisPercent": -1
+        }
+    },
+    {
+        "title": "完结列表",
+        "url": "modules/article/articlelist.php?fullflag=1&page={{page}}",
+        "style": {
+            "layout_flexGrow": 0.25,
+            "layout_flexBasisPercent": -1
+        }
+    },
+    {
+        "title": "Tag",
+        "url": "",
+        "style": {
+            "layout_flexGrow": 0,
+            "layout_flexBasisPercent": 1
+        }
+    },
+    {
+        "title": "校园",
+        "url": "modules/article/tags.php?t={{java.encodeURI(\"校园\",\"GB2312\")}}&page={{page}}",
+        "style": {
+            "layout_flexGrow": 0.25,
+            "layout_flexBasisPercent": -1
+        }
+    },
+    {
+        "title": "青春",
+        "url": "modules/article/tags.php?t={{java.encodeURI(\"青春\",\"GB2312\")}}&page={{page}}",
+        "style": {
+            "layout_flexGrow": 0.25,
+            "layout_flexBasisPercent": -1
+        }
+    },
+    {
+        "title": "恋爱",
+        "url": "modules/article/tags.php?t={{java.encodeURI(\"恋爱\",\"GB2312\")}}&page={{page}}",
+        "style": {
+            "layout_flexGrow": 0.25,
+            "layout_flexBasisPercent": -1
+        }
+    },
+    {
+        "title": "治愈",
+        "url": "modules/article/tags.php?t={{java.encodeURI(\"治愈\",\"GB2312\")}}&page={{page}}",
+        "style": {
+            "layout_flexGrow": 0.25,
+            "layout_flexBasisPercent": -1
+        }
+    },
+    {
+        "title": "群像",
+        "url": "modules/article/tags.php?t={{java.encodeURI(\"群像\",\"GB2312\")}}&page={{page}}",
+        "style": {
+            "layout_flexGrow": 0.25,
+            "layout_flexBasisPercent": -1
+        }
+    },
+    {
+        "title": "竞技",
+        "url": "modules/article/tags.php?t={{java.encodeURI(\"竞技\",\"GB2312\")}}&page={{page}}",
+        "style": {
+            "layout_flexGrow": 0.25,
+            "layout_flexBasisPercent": -1
+        }
+    },
+    {
+        "title": "音乐",
+        "url": "modules/article/tags.php?t={{java.encodeURI(\"音乐\",\"GB2312\")}}&page={{page}}",
+        "style": {
+            "layout_flexGrow": 0.25,
+            "layout_flexBasisPercent": -1
+        }
+    },
+    {
+        "title": "美食",
+        "url": "modules/article/tags.php?t={{java.encodeURI(\"美食\",\"GB2312\")}}&page={{page}}",
+        "style": {
+            "layout_flexGrow": 0.25,
+            "layout_flexBasisPercent": -1
+        }
+    },
+    {
+        "title": "旅行",
+        "url": "modules/article/tags.php?t={{java.encodeURI(\"旅行\",\"GB2312\")}}&page={{page}}",
+        "style": {
+            "layout_flexGrow": 0.25,
+            "layout_flexBasisPercent": -1
+        }
+    },
+    {
+        "title": "欢乐向",
+        "url": "modules/article/tags.php?t={{java.encodeURI(\"欢乐向\",\"GB2312\")}}&page={{page}}",
+        "style": {
+            "layout_flexGrow": 0.25,
+            "layout_flexBasisPercent": -1
+        }
+    },
+    {
+        "title": "经营",
+        "url": "modules/article/tags.php?t={{java.encodeURI(\"经营\",\"GB2312\")}}&page={{page}}",
+        "style": {
+            "layout_flexGrow": 0.25,
+            "layout_flexBasisPercent": -1
+        }
+    },
+    {
+        "title": "职场",
+        "url": "modules/article/tags.php?t={{java.encodeURI(\"职场\",\"GB2312\")}}&page={{page}}",
+        "style": {
+            "layout_flexGrow": 0.25,
+            "layout_flexBasisPercent": -1
+        }
+    },
+    {
+        "title": "斗智",
+        "url": "modules/article/tags.php?t={{java.encodeURI(\"斗智\",\"GB2312\")}}&page={{page}}",
+        "style": {
+            "layout_flexGrow": 0.25,
+            "layout_flexBasisPercent": -1
+        }
+    },
+    {
+        "title": "脑洞",
+        "url": "modules/article/tags.php?t={{java.encodeURI(\"脑洞\",\"GB2312\")}}&page={{page}}",
+        "style": {
+            "layout_flexGrow": 0.25,
+            "layout_flexBasisPercent": -1
+        }
+    },
+    {
+        "title": "宅文化",
+        "url": "modules/article/tags.php?t={{java.encodeURI(\"宅文化\",\"GB2312\")}}&page={{page}}",
+        "style": {
+            "layout_flexGrow": 0.25,
+            "layout_flexBasisPercent": -1
+        }
+    },
+    {
+        "title": "穿越",
+        "url": "modules/article/tags.php?t={{java.encodeURI(\"穿越\",\"GB2312\")}}&page={{page}}",
+        "style": {
+            "layout_flexGrow": 0.25,
+            "layout_flexBasisPercent": -1
+        }
+    },
+    {
+        "title": "魔法",
+        "url": "modules/article/tags.php?t={{java.encodeURI(\"魔法\",\"GB2312\")}}&page={{page}}",
+        "style": {
+            "layout_flexGrow": 0.25,
+            "layout_flexBasisPercent": -1
+        }
+    },
+    {
+        "title": "异能",
+        "url": "modules/article/tags.php?t={{java.encodeURI(\"异能\",\"GB2312\")}}&page={{page}}",
+        "style": {
+            "layout_flexGrow": 0.25,
+            "layout_flexBasisPercent": -1
+        }
+    },
+    {
+        "title": "战斗",
+        "url": "modules/article/tags.php?t={{java.encodeURI(\"战斗\",\"GB2312\")}}&page={{page}}",
+        "style": {
+            "layout_flexGrow": 0.25,
+            "layout_flexBasisPercent": -1
+        }
+    },
+    {
+        "title": "科幻",
+        "url": "modules/article/tags.php?t={{java.encodeURI(\"科幻\",\"GB2312\")}}&page={{page}}",
+        "style": {
+            "layout_flexGrow": 0.25,
+            "layout_flexBasisPercent": -1
+        }
+    },
+    {
+        "title": "机战",
+        "url": "modules/article/tags.php?t={{java.encodeURI(\"机战\",\"GB2312\")}}&page={{page}}",
+        "style": {
+            "layout_flexGrow": 0.25,
+            "layout_flexBasisPercent": -1
+        }
+    },
+    {
+        "title": "战争",
+        "url": "modules/article/tags.php?t={{java.encodeURI(\"战争\",\"GB2312\")}}&page={{page}}",
+        "style": {
+            "layout_flexGrow": 0.25,
+            "layout_flexBasisPercent": -1
+        }
+    },
+    {
+        "title": "冒险",
+        "url": "modules/article/tags.php?t={{java.encodeURI(\"冒险\",\"GB2312\")}}&page={{page}}",
+        "style": {
+            "layout_flexGrow": 0.25,
+            "layout_flexBasisPercent": -1
+        }
+    },
+    {
+        "title": "龙傲天",
+        "url": "modules/article/tags.php?t={{java.encodeURI(\"龙傲天\",\"GB2312\")}}&page={{page}}",
+        "style": {
+            "layout_flexGrow": 0.25,
+            "layout_flexBasisPercent": -1
+        }
+    },
+    {
+        "title": "悬疑",
+        "url": "modules/article/tags.php?t={{java.encodeURI(\"悬疑\",\"GB2312\")}}&page={{page}}",
+        "style": {
+            "layout_flexGrow": 0.25,
+            "layout_flexBasisPercent": -1
+        }
+    },
+    {
+        "title": "犯罪",
+        "url": "modules/article/tags.php?t={{java.encodeURI(\"犯罪\",\"GB2312\")}}&page={{page}}",
+        "style": {
+            "layout_flexGrow": 0.25,
+            "layout_flexBasisPercent": -1
+        }
+    },
+    {
+        "title": "复仇",
+        "url": "modules/article/tags.php?t={{java.encodeURI(\"复仇\",\"GB2312\")}}&page={{page}}",
+        "style": {
+            "layout_flexGrow": 0.25,
+            "layout_flexBasisPercent": -1
+        }
+    },
+    {
+        "title": "黑暗",
+        "url": "modules/article/tags.php?t={{java.encodeURI(\"黑暗\",\"GB2312\")}}&page={{page}}",
+        "style": {
+            "layout_flexGrow": 0.25,
+            "layout_flexBasisPercent": -1
+        }
+    },
+    {
+        "title": "猎奇",
+        "url": "modules/article/tags.php?t={{java.encodeURI(\"猎奇\",\"GB2312\")}}&page={{page}}",
+        "style": {
+            "layout_flexGrow": 0.25,
+            "layout_flexBasisPercent": -1
+        }
+    },
+    {
+        "title": "惊悚",
+        "url": "modules/article/tags.php?t={{java.encodeURI(\"惊悚\",\"GB2312\")}}&page={{page}}",
+        "style": {
+            "layout_flexGrow": 0.25,
+            "layout_flexBasisPercent": -1
+        }
+    },
+    {
+        "title": "间谍",
+        "url": "modules/article/tags.php?t={{java.encodeURI(\"间谍\",\"GB2312\")}}&page={{page}}",
+        "style": {
+            "layout_flexGrow": 0.25,
+            "layout_flexBasisPercent": -1
+        }
+    },
+    {
+        "title": "末日",
+        "url": "modules/article/tags.php?t={{java.encodeURI(\"末日\",\"GB2312\")}}&page={{page}}",
+        "style": {
+            "layout_flexGrow": 0.25,
+            "layout_flexBasisPercent": -1
+        }
+    },
+    {
+        "title": "游戏",
+        "url": "modules/article/tags.php?t={{java.encodeURI(\"游戏\",\"GB2312\")}}&page={{page}}",
+        "style": {
+            "layout_flexGrow": 0.25,
+            "layout_flexBasisPercent": -1
+        }
+    },
+    {
+        "title": "大逃杀",
+        "url": "modules/article/tags.php?t={{java.encodeURI(\"大逃杀\",\"GB2312\")}}&page={{page}}",
+        "style": {
+            "layout_flexGrow": 0.25,
+            "layout_flexBasisPercent": -1
+        }
+    },
+    {
+        "title": "青梅竹马",
+        "url": "modules/article/tags.php?t={{java.encodeURI(\"青梅竹马\",\"GB2312\")}}&page={{page}}",
+        "style": {
+            "layout_flexGrow": 0.25,
+            "layout_flexBasisPercent": -1
+        }
+    },
+    {
+        "title": "妹妹",
+        "url": "modules/article/tags.php?t={{java.encodeURI(\"妹妹\",\"GB2312\")}}&page={{page}}",
+        "style": {
+            "layout_flexGrow": 0.25,
+            "layout_flexBasisPercent": -1
+        }
+    },
+    {
+        "title": "女儿",
+        "url": "modules/article/tags.php?t={{java.encodeURI(\"女儿\",\"GB2312\")}}&page={{page}}",
+        "style": {
+            "layout_flexGrow": 0.25,
+            "layout_flexBasisPercent": -1
+        }
+    },
+    {
+        "title": "JK",
+        "url": "modules/article/tags.php?t={{java.encodeURI(\"JK\",\"GB2312\")}}&page={{page}}",
+        "style": {
+            "layout_flexGrow": 0.25,
+            "layout_flexBasisPercent": -1
+        }
+    },
+    {
+        "title": "JC",
+        "url": "modules/article/tags.php?t={{java.encodeURI(\"JC\",\"GB2312\")}}&page={{page}}",
+        "style": {
+            "layout_flexGrow": 0.25,
+            "layout_flexBasisPercent": -1
+        }
+    },
+    {
+        "title": "大小姐",
+        "url": "modules/article/tags.php?t={{java.encodeURI(\"大小姐\",\"GB2312\")}}&page={{page}}",
+        "style": {
+            "layout_flexGrow": 0.25,
+            "layout_flexBasisPercent": -1
+        }
+    },
+    {
+        "title": "性转",
+        "url": "modules/article/tags.php?t={{java.encodeURI(\"性转\",\"GB2312\")}}&page={{page}}",
+        "style": {
+            "layout_flexGrow": 0.25,
+            "layout_flexBasisPercent": -1
+        }
+    },
+    {
+        "title": "伪娘",
+        "url": "modules/article/tags.php?t={{java.encodeURI(\"伪娘\",\"GB2312\")}}&page={{page}}",
+        "style": {
+            "layout_flexGrow": 0.25,
+            "layout_flexBasisPercent": -1
+        }
+    },
+    {
+        "title": "人外",
+        "url": "modules/article/tags.php?t={{java.encodeURI(\"人外\",\"GB2312\")}}&page={{page}}",
+        "style": {
+            "layout_flexGrow": 0.25,
+            "layout_flexBasisPercent": -1
+        }
+    },
+    {
+        "title": "后宫",
+        "url": "modules/article/tags.php?t={{java.encodeURI(\"后宫\",\"GB2312\")}}&page={{page}}",
+        "style": {
+            "layout_flexGrow": 0.25,
+            "layout_flexBasisPercent": -1
+        }
+    },
+    {
+        "title": "百合",
+        "url": "modules/article/tags.php?t={{java.encodeURI(\"百合\",\"GB2312\")}}&page={{page}}",
+        "style": {
+            "layout_flexGrow": 0.25,
+            "layout_flexBasisPercent": -1
+        }
+    },
+    {
+        "title": "耽美",
+        "url": "modules/article/tags.php?t={{java.encodeURI(\"耽美\",\"GB2312\")}}&page={{page}}",
+        "style": {
+            "layout_flexGrow": 0.25,
+            "layout_flexBasisPercent": -1
+        }
+    },
+    {
+        "title": "NTR",
+        "url": "modules/article/tags.php?t={{java.encodeURI(\"NTR\",\"GB2312\")}}&page={{page}}",
+        "style": {
+            "layout_flexGrow": 0.25,
+            "layout_flexBasisPercent": -1
+        }
+    },
+    {
+        "title": "女性视角",
+        "url": "modules/article/tags.php?t={{java.encodeURI(\"女性视角\",\"GB2312\")}}&page={{page}}",
+        "style": {
+            "layout_flexGrow": 0.25,
+            "layout_flexBasisPercent": -1
+        }
+    },
+    {
+        "title": "文库分类",
+        "url": "",
+        "style": {
+            "layout_flexGrow": 0,
+            "layout_flexBasisPercent": 1
+        }
+    },
+    {
+        "title": "电击文库",
+        "url": "modules/article/articlelist.php?class=1&page={{page}}",
+        "style": {
+            "layout_flexGrow": 0.25,
+            "layout_flexBasisPercent": -1
+        }
+    },
+    {
+        "title": "富士见文库",
+        "url": "modules/article/articlelist.php?class=2&page={{page}}",
+        "style": {
+            "layout_flexGrow": 0.25,
+            "layout_flexBasisPercent": -1
+        }
+    },
+    {
+        "title": "角川文库",
+        "url": "modules/article/articlelist.php?class=3&page={{page}}",
+        "style": {
+            "layout_flexGrow": 0.25,
+            "layout_flexBasisPercent": -1
+        }
+    },
+    {
+        "title": "MF文库J",
+        "url": "modules/article/articlelist.php?class=4&page={{page}}",
+        "style": {
+            "layout_flexGrow": 0.25,
+            "layout_flexBasisPercent": -1
+        }
+    },
+    {
+        "title": "Fami通文库",
+        "url": "modules/article/articlelist.php?class=5&page={{page}}",
+        "style": {
+            "layout_flexGrow": 0.25,
+            "layout_flexBasisPercent": -1
+        }
+    },
+    {
+        "title": "GA文库",
+        "url": "modules/article/articlelist.php?class=6&page={{page}}",
+        "style": {
+            "layout_flexGrow": 0.25,
+            "layout_flexBasisPercent": -1
+        }
+    },
+    {
+        "title": "HJ文库",
+        "url": "modules/article/articlelist.php?class=7&page={{page}}",
+        "style": {
+            "layout_flexGrow": 0.25,
+            "layout_flexBasisPercent": -1
+        }
+    },
+    {
+        "title": "一迅社",
+        "url": "modules/article/articlelist.php?class=8&page={{page}}",
+        "style": {
+            "layout_flexGrow": 0.25,
+            "layout_flexBasisPercent": -1
+        }
+    },
+    {
+        "title": "集英社",
+        "url": "modules/article/articlelist.php?class=9&page={{page}}",
+        "style": {
+            "layout_flexGrow": 0.25,
+            "layout_flexBasisPercent": -1
+        }
+    },
+    {
+        "title": "小学馆",
+        "url": "modules/article/articlelist.php?class=10&page={{page}}",
+        "style": {
+            "layout_flexGrow": 0.25,
+            "layout_flexBasisPercent": -1
+        }
+    },
+    {
+        "title": "讲谈社",
+        "url": "modules/article/articlelist.php?class=11&page={{page}}",
+        "style": {
+            "layout_flexGrow": 0.25,
+            "layout_flexBasisPercent": -1
+        }
+    },
+    {
+        "title": "少女文库",
+        "url": "modules/article/articlelist.php?class=12&page={{page}}",
+        "style": {
+            "layout_flexGrow": 0.25,
+            "layout_flexBasisPercent": -1
+        }
+    },
+    {
+        "title": "其他文库",
+        "url": "modules/article/articlelist.php?class=13&page={{page}}",
+        "style": {
+            "layout_flexGrow": 0.25,
+            "layout_flexBasisPercent": -1
+        }
+    },
+    {
+        "title": "游戏剧本",
+        "url": "modules/article/articlelist.php?class=14&page={{page}}",
+        "style": {
+            "layout_flexGrow": 0.25,
+            "layout_flexBasisPercent": -1
+        }
+    }
+]
