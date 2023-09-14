@@ -1,13 +1,12 @@
 <script>
 
-defineProps({
-    msg: String,
-})
 
 </script>
 
 <template>
-    <a href="./mainPage.vue">asd</a>
+    <a href="/">root</a><br>
+    <a href="/main">main</a><br>
+    <a href="/hello">hello</a>
 </template>
 
 <style scoped></style>
