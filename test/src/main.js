@@ -1,7 +1,11 @@
 import { createApp } from 'vue'
-import './style.css'
 import App from './App.vue'
 import { router } from "./router.js"
+import ElementPlus from 'element-plus'
+import { zhCn } from 'element-plus/es/locale/index'
 
-createApp(App).use(router).mount('#app')
+createApp(App)
+    .use(router)
+    .use(ElementPlus, { locale: zhCn })
+    .mount('#app')
 
