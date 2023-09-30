@@ -1,10 +1,25 @@
-<script setup>
+<script>
+export default {
+  name: "App",
+  setup() {
+    function toHome() {
+
+    }
+
+    return {
+      toHome
+    }
+  }
+}
 
 </script>
 
 <template>
   <div class="container">
-    <div class="top" style="color: #ffffff;">首页</div>
+    <div class="top">
+      <div style="float:left">首页</div>
+      <div style="float:right">aaa</div>
+    </div>
     <div class="bottom">
       <div class="sideBar">
         <el-menu default-active="2" :router="true" background-color="#333744" text-color="#fff"
@@ -12,16 +27,18 @@
           <el-menu-item index="/roomStatus">房态图</el-menu-item>
           <el-menu-item index="/roomManage">房间管理</el-menu-item>
           <el-menu-item index="7">菜单三</el-menu-item>
-          <el-sub-menu index="8">
-            <template #title>菜单四2124</template>
-            <el-menu-item index="1-4-1">菜单四1</el-menu-item>
-            <el-menu-item index="1-4-2">菜单四2</el-menu-item>
-            <el-menu-item index="1-4-3">菜单四3</el-menu-item>
-          </el-sub-menu>
         </el-menu>
       </div>
       <div class="workSpace">
-        <router-view></router-view>
+        <el-card>
+          <el-breadcrumb separator-class="el-icon-arrow-right">
+            <el-breadcrumb-item :to="{ path: '/home' }" @click="toHome">首页</el-breadcrumb-item>
+            <el-breadcrumb-item>{{ $route.meta.title }}</el-breadcrumb-item>
+          </el-breadcrumb>
+        </el-card>
+        <el-card style="margin-top: 10px;">
+          <router-view></router-view>
+        </el-card>
       </div>
     </div>
   </div>
@@ -29,34 +46,35 @@
 
 <style scoped>
 .container {
-  width: 100%;
-  height: 100%;
-  background-color: aqua;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(255, 255, 255);
 }
 
 .top {
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(96, 96, 96);
   height: 60px;
   width: 100vw;
-
+  color: white;
 }
 
 .bottom {
-  flex: 1;
+  flex: 0;
   background-color: rgb(255, 255, 255);
-  width: 100vw;
   height: calc(100vh - 60px);
+  width: 100%;
 }
 
 .bottom .sideBar {
-  background-color: rgb(109, 109, 109);
-  height: calc(100vh - 60px);
+  background-color: rgb(59, 59, 59);
+  height: 100%;
   width: 300px;
+  float: left;
 }
 
 .bottom .workSpace {
-  /* background-color: rgb(128, 154, 87); */
-  height: auto;
+  background-color: rgb(38, 38, 38);
+  height: 100%;
   width: calc(100vw - 300px);
   float: right;
 }

@@ -1,6 +1,16 @@
 
-<script setup>
-const a = 123
+<script>
+export default {
+    name: "roomStatus",
+
+    setup() {
+        const a = 123
+
+        return {
+            a
+        }
+    }
+}
 
 
 </script>

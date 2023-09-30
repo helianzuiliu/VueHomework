@@ -1,7 +1,12 @@
 <script>
 
 export default {
-  name: "root"
+    name: "Login",
+    setup() {
+        return {
+
+        }
+    }
 }
 </script>
 
