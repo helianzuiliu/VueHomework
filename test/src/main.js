@@ -5,7 +5,7 @@ import { createApp } from 'vue'
 import { zhCn } from 'element-plus/es/locale/index'
 
 import "./style.css"
-import 'element-plus/dist/index.css'
+import "element-plus/dist/index.css"
 
 createApp(App)
     .use(router)

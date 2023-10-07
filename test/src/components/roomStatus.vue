@@ -4,7 +4,7 @@ export default {
     name: "roomStatus",
 
     setup() {
-        const a = 123
+        const a = "Creazy Thursday V me 50"
 
         return {
             a

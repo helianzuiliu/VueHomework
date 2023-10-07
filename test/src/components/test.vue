@@ -1,8 +1,8 @@
 <script>
 export default {
-    name: "mainPage",
-    
-    setup() {
+  name: "test",
+
+  setup() {
     const user = { name: "hlzl" }
     return {
       user
@@ -12,8 +12,8 @@ export default {
 </script>
 
 <template>
-  Welcome! {{ user.name }}
+  Test <br>
+  {{ user.name }}
 </template>
-
 
 <style scoped></style>

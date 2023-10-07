@@ -3,11 +3,15 @@ export default {
   name: "App",
   setup() {
     function toHome() {
+      console.log("toHome")
+    }
 
+    function Logout() {
+      console.log("Logout")
     }
 
     return {
-      toHome
+      toHome, Logout
     }
   }
 }
@@ -18,7 +22,7 @@ export default {
   <div class="container">
     <div class="top">
       <div style="float:left">首页</div>
-      <div style="float:right">aaa</div>
+      <div style="float:right" @click="Logout">注销</div>
     </div>
     <div class="bottom">
       <div class="sideBar">

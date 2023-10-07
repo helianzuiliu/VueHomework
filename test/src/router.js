@@ -10,7 +10,7 @@ const routes = [
         component: () => import("./components/Login.vue")
     },
     {
-        path: "/hello",
+        path: "/home",
         component: () => import("./components/HelloWorld.vue")
     },
     {
@@ -21,6 +21,10 @@ const routes = [
     {
         path: "/roomManage",
         component: () => import("./components/roomManage.vue")
+    },
+    {
+        path: "/test",
+        component: () => import("./components/test.vue")
     }
 ]
 
