@@ -1,8 +1,8 @@
 <script>
 export default {
-    name: "mainPage",
-    
-    setup() {
+  name: "mainPage",
+
+  setup() {
     const user = { name: "hlzl" }
     return {
       user

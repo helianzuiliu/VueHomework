@@ -3,7 +3,9 @@ export default {
   name: "test",
 
   setup() {
-    const user = { name: "hlzl" }
+    const user = {
+      name: "hlzl",
+    }
     return {
       user
     }
