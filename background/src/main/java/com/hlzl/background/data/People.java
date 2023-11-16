@@ -5,7 +5,11 @@ import lombok.Data;
 @Data
 public class People {
 
-  private String Name;
+  private String name;
   private int age;
 
+  public People(String name, int age) {
+    this.name = name;
+    this.age = age;
+  }
 }
