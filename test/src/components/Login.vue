@@ -1,6 +1,8 @@
 <script>
 import { reactive, toRefs } from "vue"
 import { ElMessage, ElMessageBox } from "element-plus";
+import service from "../util/request";
+import login from "../tsscript/test"
 
 export default {
   name: "login",
@@ -14,27 +16,37 @@ export default {
     })
 
     const checkVerify = () => {
-      //本地校验验证码,通过返回true
-
+      //TODO 本地校验验证码,通过返回true
+      return true;
     }
 
     const checkLoginForm = (name, password) => {
-      //将信息发送至后端校验，通过则返回true
+      console.log("checkLoginForm Start")
+      //TODO 将信息发送至后端校验，通过则返回true
+      const userdata = {
+        "name": name,
+        "password": password
+      }
 
+      service.post("/people", userdata).then(()=>{
+        console.log("asd")
+      })
+
+      return true
     }
 
     const loginMainForm = () => {
-      if (!checkVerify()) {
+      if (!checkVerify(data.loginForm.verify)) {
         ElMessage.error('校验码错误')
       }
 
-      if (checkLoginForm()) {
+      if (!checkLoginForm(data.loginForm.username,data.loginForm.password)) {
         ElMessage.error('用户名或密码不对！')
       }
 
-      //保存Socket并切换窗口
-
-      window.location.href = "/"
+      //TODO 保存Socket并切换窗口
+      console.log("checkLoginForm End")
+      // window.location.href = "/"
     }
 
     const closeLoginForm = () => {
@@ -45,6 +57,7 @@ export default {
       ...toRefs(data), loginMainForm, closeLoginForm
     }
   }
+
 }
 </script>
 
@@ -56,7 +69,7 @@ export default {
       </div>
       <el-form label-width="100px" style="max-width: 460px" class="loginForm">
         <el-form-item label="用户名：">
-          <el-input v-model="loginForm.username" />
+          <el-input v-model="loginForm.name" />
         </el-form-item>
         <el-form-item label="密码：">
           <el-input v-model="loginForm.password" />
@@ -65,7 +78,7 @@ export default {
           <el-input v-model="loginForm.verify" />
         </el-form-item>
         <el-form-item style="margin-left: 60px;">
-          <el-button type="primary" size="large" v-on:click="loginMainForm">登录</el-button>
+          <el-button type="primary" size="large" @click="loginMainForm">登录</el-button>
           <!-- <el-button type="danger" @click="closeLoginForm">退出</el-button> -->
         </el-form-item>
       </el-form>

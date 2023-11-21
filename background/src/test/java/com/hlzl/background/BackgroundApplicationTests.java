@@ -1,28 +1,21 @@
 package com.hlzl.background;
 
 import org.junit.jupiter.api.Test;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.util.Assert;
+
+import com.hlzl.background.dao.PeopleDao;
 
 @SpringBootTest
 class BackgroundApplicationTests {
-
-    private String _string;
-
-    BackgroundApplicationTests() {
-        _string = "1234";
-    }
+    @Autowired
+    private PeopleDao peopleDao;
 
     @Test
     void contextLoads() {
-        System.out.println("Test content loading");
 
-        System.out.println("Test content load over");
-    }
+        // System.out.println(peopleDao.selectById(1));
 
-    @Test
-    public void StringContain() {
-        Assert.hasText(_string, "12");
     }
 
 }
